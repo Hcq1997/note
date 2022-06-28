@@ -1,6 +1,6 @@
 # Linux基础
 
-## 一、文件
+## 一、基础知识
 
 Linux是个多用户多任务的系统。
 
@@ -53,4 +53,16 @@ Linux是个多用户多任务的系统。
  
 
 
+
+## 二、常用命令
+
+#### 1.apt-get和apt的区别
+
+Debian 作为 Ubuntu、Linux Mint 和 elementary OS 等 Linux 操作系统的母板，其具有强健的「包管理」系统，它的每个组件和应用程序都内置在系统中安装的软件包中。Debian 使用一套名为 [Advanced Packaging Tool](https://wiki.debian.org/Apt)（APT）的工具来管理这种包系统。
+
+apt-get 是其中一款广受欢迎的命令行工具。最常用的 Linux 包管理命令都被分散在了 apt-get、apt-cache 和 apt-config 这三条命令当中。
+
+apt 命令的引入就是为了解决命令过于分散的问题，它包括了 apt-get 命令出现以来使用最广泛的功能选项，以及 apt-cache 和 apt-config 命令中很少用到的功能。
+
+> 简单来说就是：apt = apt-get、apt-cache 和 apt-config 中最常用命令选项的集合。
 
